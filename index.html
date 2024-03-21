@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Negative Marking Calculator</title>
+    <meta name="Description"
+        content="This application calculates competitive exam marks based on negative marking system" />
+    <meta name="Keywords"
+        content="negative marking calculator, 1/3 negative marking calculator, 1/4 negative marking calculator, negative marking in ssc cgl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#FB5416">
+    <meta property="og:title" content="Negative Marking Calculator">
+<meta property="og:site_name" content="Negative Marking Calculator">
+<meta property="og:url" content="https://sahamalam.github.io/negative-marking-calculator/">
+<meta property="og:description" content="This application calculates competitive exam marks based on negative marking system">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://sahamalam.github.io/negative-marking-calculator/Negative-Marking-Calculator.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="sahamalam.github.io">
+<meta property="twitter:url" content="https://sahamalam.github.io/negative-marking-calculator/">
+<meta name="twitter:title" content="Negative Marking Calculator">
+<meta name="twitter:description" content="This application calculates competitive exam marks based on negative marking system">
+<meta name="twitter:image" content="https://sahamalam.github.io/negative-marking-calculator/Negative-Marking-Calculator.png">
+<link href="logo.png" sizes="256x256" rel="icon" type="image/png">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="canonical" href="https://sahamalam.github.io/negative-marking-calculator/" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9N4RCK3W2W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9N4RCK3W2W');
+</script>
+</head>
+
+<body>
+    <div class="five">
+        <h1>Negative Marking Calculator By <a href="https://desiretolearn.in/">Desire To Learn</a> 
+            <span>UPSC, RRB, NEET, UPPSC, BPSC, UPSSSC</span>
+        </h1>
+    </div>
+    <br>
+
+    <table style="align: center; width: 100%">
+        <tbody>
+            <tr>
+                <td>Total Questions</td>
+                <td><input class="code1" id="a1" required="" type="number" /></td>
+            </tr>
+            <tr>
+                <td>Maximum Marks</td>
+                <td><input class="code1" id="b1" required="" type="number" /></td>
+            </tr>
+            <tr>
+                <td>Total Questions Attempted</td>
+                <td><input class="code1" id="a2" required="" type="number" /></td>
+            </tr>
+            <tr>
+                <td>Number of Wrong Questions</td>
+                <td><input class="code1" id="a4" required="" type="number" /></td>
+            </tr>
+            <tr>
+                <td>Negative Marking Ratio </td>
+                <td>
+                    <select class="code1" id="a5" name="Part of Negative Marking" required="">
+                        <option>Select</option>
+                        <option value="1">1/1</option>
+                        <option value="2">1/2</option>
+                        <option value="3">1/3</option>
+                        <option value="4">1/4</option>
+                        <option value="5">1/5</option>
+                        <option value="6">1/6</option>
+                        <option value="7">1/7</option>
+                        <option value="999999999999999999999999999999">
+                            No Negative
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Final Number:</p></td>
+                <td><p><span id="a6" name="total_amt" style="color: #0D2366; font-size: xx-large; display:inline-block;" class="boxshadow hide-shadow" type="number"></span>
+                  </p></td></tr>
+                  </tbody>
+                </table>
+    <div align="center" style="margin: 6px">
+        <button class="butn butn__new" name="button" onclick="calculate()" type="submit">
+            Calculate
+        </button>
+    </div>
+    <p><span class="finalad"></span></p>
+
+
+
+    
+</body>
+
+</html>
